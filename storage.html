@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        localStorage.setItem('user_token', 'QWERTYUIOP{POKJHGFDW!@#$%^Y&UIKMNBVCDWERFG}')
+        localStorage.setItem('user_id', '201')
+        // localStorage.setItem('user_name','anto')
+
+
+        var userId = localStorage.getItem('user_id')
+        console.log(userId, 'userId')
+        localStorage.removeItem('user_id')
+
+        // localStorage.clear()
+
+        console.log(localStorage.user_name)
+        document.cookie = "EWSDFGHJKKJHGFDDFGHJNBVCSW"
+
+
+        sessionStorage.setItem('customer_token', 'QWERTYUI)(*&^%$#QWSDV)')
+        var customerId = sessionStorage.getItem('customer_token')
+          sessionStorage.removeItem('customer_token')
+        // console.log(customerId)
+        sessionStorage.clear()
+    </script>
+</body>
+
+</html>
